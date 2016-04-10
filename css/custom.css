@@ -1,0 +1,69 @@
+.arrow {
+  background: none;
+}
+
+.arrow img {
+  width: 23px;
+}
+
+.header .arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -12px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 90%;
+}
+
+.page {
+  text-align: center;
+}
+
+.page-logo {
+  display: block;
+  margin: 1em auto 4em auto;
+}
+
+.content {
+  margin-bottom: 4em;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  margin-bottom: 2em;
+}
+
+.beer .title {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.beer .subtitle {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.beer img {
+  width: 400px;
+  heigth: 400px;
+}
+
+.beer ul {
+  padding-left: 20px;
+}
+
+.beer li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.2em;
+}

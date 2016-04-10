@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LUZI BRAUEREI AESCHIRIED</title>
+
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="css/custom.css?version=4" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['start', 'biere', 'überuns'],
+        scrollOverflow: true,
+			});
+		});
+	</script>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section header">
+        <img src="images/logo.png" alt="LUZI BRAUEREI AESCHIRIED" class="logo" />
+
+        <a href="#biere" title="Biere" class="arrow">
+          <img src="images/arrow-down.svg">
+        </a>
+      </div>
+
+      <div class="section page">
+        <div class="content">
+          <img src="images/logo-small.png" alt="DIE BIERE" class="page-logo" />
+          <h1 class="section-title">DIE BIERE</h1>
+
+          <div class="block beer">
+            <h3 class="title">BENGAL TIGER</h3>
+            <h4 class="subtitle">INDIA PALE ALE</h4>
+            <img src="images/bengal-tiger.png" alt="BENGAL TIGER - INDIA PALE ALE" />
+            <ul>
+              <li>2 Malzsorten</li>
+              <li>2 Hopfenarten</li>
+              <li>Hefe</li>
+              <li>Aeschirieder Quellwasser</li>
+            </ul>
+          </div>
+
+          <div class="block beer">
+            <h3 class="title">HONEY BUNNY</h3>
+            <h4 class="subtitle">HONIG BIER</h4>
+            <img src="images/honey-bunny.png" alt="HONEY BUNNY - HONIG BIER" />
+            <ul>
+              <li>3 Malzsorten</li>
+              <li>2 Hopfenarten</li>
+              <li>Kandertaler Bienenhonig</li>
+              <li>Hefe</li>
+              <li>Aeschirieder Quellwasser</li>
+            </ul>
+          </div>
+
+          <div class="block beer">
+            <h3 class="title">BROWN BROWN ALE</h3>
+            <h4 class="subtitle">PORTER / STOUT</h4>
+            <img src="images/brown-brown-ale.png" alt="BROWN BROWN ALE - PORTER / STOUT" />
+            <ul>
+              <li>5 Malzsorten</li>
+              <li>2 Hopfenarten</li>
+              <li>Espresso</li>
+              <li>Schweizer Schokolade</li>
+              <li>Hefe</li>
+              <li>Aeschirieder Quellwasser</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section page">
+        <div class="content">
+          <img src="images/logo-small.png" alt="DIE BIERE" class="page-logo" />
+
+          <div class="block">
+            <img src="images/hopfen.jpg" alt="BRAUEREI" />
+            <h3 class="title">BRAUEREI</h3>
+            <p class="description">
+              SEIT 2014<br />
+              IN UMGEBAUTER GARAGE<br />
+              MIT EIGENEM QUELLWASSER<br />
+              10-20 HL PRO JAHR<br />
+              BJÖRN LUGINBÜHL<br />
+              CARLO ZIMMERMANN<br />
+              <br />
+              MOTIVATION<br />
+              GESCHMACKVOLLES, REGIONALES BIER
+            </p>
+          </div>
+
+          <div class="block">
+            <img src="images/kontakt.jpg" alt="KONTAKT" />
+            <h3 class="title">KONTAKT</h3>
+            <p class="description">
+              <a href="mailto:mail@luzi.ch">MAIL@LUZI-BIER.CH</a><br />
+              <br />
+              <br />
+              BRAUEREI LUZI<br />
+              TANNEMATTLI<br />
+              3703 AESCHIRIED
+            </p>
+          </div>
+
+          <div class="block">
+            <img src="images/trinken.jpg" alt="TRINKEN" />
+            <h3 class="title">TRINKEN</h3>
+            <h4 class="subtitle">AUSSCHANK</h4>
+            <p class="description">
+              RESTAURANT WILDSTRUBEL, Adelboden<br />
+              RESTAURANT BERGBACH, Adelboden<br />
+              TIEFER KELLER / HULDI, Adelboden<br />
+              IGLU BAR, Adelboden
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
